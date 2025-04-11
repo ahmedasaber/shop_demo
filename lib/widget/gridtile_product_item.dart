@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'model/card_model.dart';
-import 'model/product_model.dart';
+import '../model/card_model.dart';
+import '../model/product_model.dart';
 
 class GridProductItem extends StatelessWidget {
   //final Product? product;
@@ -43,7 +43,7 @@ class GridProductItem extends StatelessWidget {
           onTap: () {
             Navigator.pushNamed(
               context,
-              '/productDetails',
+               '/productDetails',
               arguments: pProduct,
             );
           },

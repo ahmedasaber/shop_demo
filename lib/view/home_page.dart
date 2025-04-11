@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shop_demo/gridtile_product_item.dart';
+import 'package:shop_demo/widget/gridtile_product_item.dart';
 import 'package:shop_demo/viewmodel/product_provider.dart';
 
 class Home extends StatefulWidget {

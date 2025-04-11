@@ -30,7 +30,8 @@ class MyApp extends StatelessWidget {
         '/cart': (context)=> CartScreen(),
       },
       theme: ThemeData(
-        colorSchemeSeed: Colors.pinkAccent
+        colorSchemeSeed: Colors.deepPurpleAccent,
+        useMaterial3: true,
       ),
       home: Home(),
     );

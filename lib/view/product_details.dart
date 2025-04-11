@@ -3,7 +3,7 @@ import 'package:shop_demo/model/product_model.dart';
 
 class ProductDetails extends StatelessWidget{
    ProductDetails({super.key, this.product});
-   late Product? product;
+   Product? product;
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,24 @@ class ProductDetails extends StatelessWidget{
     print(product);
     return Scaffold(
       appBar: AppBar(title: Text('Details'),),
-      body: Center(child: Text(product!.title.toString()),),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            SizedBox(
+              height: 250,
+              width: double.infinity,
+              child: Image.asset(product!.image.toString(), fit: BoxFit.cover,),
+            ),
+            SizedBox(height: 20,),
+            Text('\$${product!.price}', style: TextStyle(fontSize: 20),),
+            SizedBox(height: 20,),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: Text(product!.description.toString()),
+            )
+          ],
+        ),
+      ),
     );
   }
 }
