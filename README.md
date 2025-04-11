@@ -1,8 +1,8 @@
 # shop_demo
 
-A new Flutter project Shop_Demo app, that show Products and.
+A new Flutter project Shop_Demo app.
 
-## Feature
+## 🚀 Feature
 
 - Show Products in home
 - Add Products in Favorite
