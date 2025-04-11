@@ -15,6 +15,4 @@ A new Flutter project Shop_Demo app, that show Products and.
 
 ## 💻 Screens
 
-| Home                                                                      |                                                                               | Favorite items                                                           |
-|---------------------------------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | ![](https://github.com/ahmedasaber/shop_demo/blob/master/assets/home.jpg) | ![](https://github.com/ahmedasaber/shop_demo/blob/master/assets/home%202.jpg) | ![](https://github.com/ahmedasaber/shop_demo/blob/master/assets/fav.jpg) |
