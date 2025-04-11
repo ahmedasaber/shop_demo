@@ -14,9 +14,28 @@ A new Flutter project Shop_Demo app, that show Products and.
 - Provider State Management
 
 ## 💻 Screens
+<table>
+  <tr>
+    <th>Home</th>
+    <th>Home 2</th>
+    <th>Favorite Items</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/home.jpg" width="200"/></td>
+    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/home%202.jpg" width="200"/></td>
+    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/fav.jpg" width="200"/></td>
+  </tr>
+</table>
 
-| Home                                                                         | Home 2                                                                        | Favorite Items                                                           |
-|------------------------------------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| ![hom](https://github.com/ahmedasaber/shop_demo/blob/master/assets/home.jpg) | ![](https://github.com/ahmedasaber/shop_demo/blob/master/assets/home%202.jpg) | ![](https://github.com/ahmedasaber/shop_demo/blob/master/assets/fav.jpg) |
-| Details                                                                      | Cart                                                                          |
-| ![](https://github.com/ahmedasaber/shop_demo/blob/master/assets/details.jpg) | ![](https://github.com/ahmedasaber/shop_demo/blob/master/assets/cart.jpg)     |
+<br/>
+
+<table>
+  <tr>
+    <th>Details</th>
+    <th>Cart</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/details.jpg" width="200"/></td>
+    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/cart.jpg" width="200"/></td>
+  </tr>
+</table>
