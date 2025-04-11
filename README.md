@@ -21,9 +21,9 @@ A new Flutter project Shop_Demo app, that show Products and.
     <th>Favorite Items</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/home.jpg" width="200"/></td>
-    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/home%202.jpg" width="200"/></td>
-    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/fav.jpg" width="200"/></td>
+    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/home.jpg" width="250"/></td>
+    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/home%202.jpg" width="250"/></td>
+    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/fav.jpg" width="250"/></td>
   </tr>
 </table>
 
@@ -35,7 +35,7 @@ A new Flutter project Shop_Demo app, that show Products and.
     <th>Cart</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/details.jpg" width="200"/></td>
-    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/cart.jpg" width="200"/></td>
+    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/details.jpg" width="250"/></td>
+    <td><img src="https://github.com/ahmedasaber/shop_demo/blob/master/assets/cart.jpg" width="250"/></td>
   </tr>
 </table>
