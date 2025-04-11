@@ -28,8 +28,7 @@ class ProductsProvider with ChangeNotifier{
   ];
   List<Product> get products => _products;
 
-  toggleIsFav(Product? p){
-    p!.isFavorite = !p.isFavorite;
-    notifyListeners();
+  List<Product> get favoriteProducts{
+    return _products.where((product)=>product.isFavorite).toList();
   }
 }

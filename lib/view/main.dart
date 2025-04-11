@@ -1,17 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:shop_demo/view/card_page.dart';
 import 'package:shop_demo/view/product_details.dart';
 import 'package:shop_demo/viewmodel/product_provider.dart';
 
+import '../model/card_model.dart';
 import 'home_page.dart';
 
 void main() {
   runApp(
-      ChangeNotifierProvider(
-        create: (context) => ProductsProvider(),
-        child: const MyApp(),
-      )
-  );
+    MultiProvider(providers: [
+      ChangeNotifierProvider(create: (context) => ProductsProvider()),
+      ChangeNotifierProvider(create: (context) => Cart()),
+    ],
+      child: const MyApp(),
+    ));
 }
 
 class MyApp extends StatelessWidget {
@@ -24,6 +27,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/home': (context)=> Home(),
         '/productDetails': (context)=> ProductDetails(),
+        '/cart': (context)=> CartScreen(),
       },
       theme: ThemeData(
         colorSchemeSeed: Colors.pinkAccent
